@@ -1,0 +1,72 @@
+--ng new(nombre del aplicacion)---- (esto es para crear un nuevo proyecto).
+
+--ng serve -o(es para levantar un servidor local.)
+
+
+--{{nombre}} (es para agarrar el mismo objeto desde otro lugar.)
+
+--ng g c (nombre de la carpeta) nombre del nuevo archivo. (es para crear de forma automatico archivos).
+
+components
+	home
+	shared/ navbar
+"src/styles.css",
+                            "node_modules/bootstrap/dist/css/bootstrap.min.css"
+                        ],
+                        "scripts": [
+                            "node_modules/jquery/dist/jquery.slim.min.js",
+                            "node_modules/popper.js/dist/umd/popper.min.js",
+                            "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+Donde la propiedad es una de:
+
+m - para clases que establecen margin
+p - para clases que establecen padding
+Donde lados es uno de:
+
+t- para clases que establecen margin-topopadding-top
+b- para clases que establecen margin-bottomopadding-bottom
+l- para clases que establecen margin-leftopadding-left
+r- para clases que establecen margin-rightopadding-right
+x- para clases que establecen tanto *-lefty*-right
+y- para clases que establecen tanto *-topy*-bottom
+en blanco: para clases que establecen a margino paddingen los 4 lados del elemento
+Donde el tamaño es uno de:
+
+0- para clases que eliminan el margino paddingconfigurándolo en 0
+1- (por defecto) para clases que establecen el margino paddingen$spacer * .25
+2- (por defecto) para clases que establecen el margino paddingen$spacer * .5
+3- (por defecto) para clases que establecen el margino paddingen$spacer
+4- (por defecto) para clases que establecen el margino paddingen$spacer * 1.5
+5- (por defecto) para clases que establecen el margino paddingen$spacer * 3
+auto- para clases que configuran el marginen automático
+------------------------------------------------------------------------------
+
+<div class="col-md-4" *ngFor="let heroe of heroes">    (Es para hacer tarjetas dandoles un tamaño y la cantidad que tengamos definida)
+
+****-----------------------------------------------***--*-******************************------------------
+Generar pipe
+--ng g p pipes/capitalizado
+
+
+---------------------------------------------------------------
+levantar un servidor en IONIC
+
+--ionic serve
+
+--------------------------------------------------------------------
+
+asi creamos archivos en ionic
+
+--ionic g s services/deseos
+
+
+
+-------------------------------------------------
+ng  contruir build --prod
+
